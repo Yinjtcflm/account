@@ -2,6 +2,7 @@ import Labels from '@/views/Labels.vue';
 <template>
     <div>
         Labels.vue
+        <Nav/>
     </div>
 </template>
 
