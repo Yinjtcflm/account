@@ -4,7 +4,7 @@ import Layout from '@/components/Layout.vue';
     <NumberPad />
     <Types />
     <Notes />
-    <Tags :dataSource="tags" />
+    <Tags :dataSource.sync="tags" />
   </Layout>
 </template>
 
