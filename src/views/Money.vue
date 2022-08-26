@@ -2,7 +2,7 @@ import Layout from '@/components/Layout.vue';
 <template>
   <Layout classPrefix="layout">
     <NumberPad />
-    <Types xxx="hi" />
+    <Types />
     <Notes />
     <Tags />
   </Layout>
