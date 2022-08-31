@@ -4,7 +4,6 @@ module.exports = {
     node: true
   },
   "globals": { "RecordItem": true },
-  "globals": { "tags": true },
   'extends': [
     'plugin:vue/essential',
     'eslint:recommended',
