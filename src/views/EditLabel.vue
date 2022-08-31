@@ -1,5 +1,11 @@
 <template>
-  <layout>编辑标签</layout>
+  <layout>
+    <div>
+      <Icon name="left" />
+      <span>编辑标签</span>
+    </div>
+    <Notes fieldName="标签名" placeholder="请输入标签名" />
+  </layout>
 </template>
 
 <script lang="ts">
