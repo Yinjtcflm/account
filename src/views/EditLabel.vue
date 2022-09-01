@@ -5,7 +5,7 @@
       <span class="title">编辑标签</span>
       <span class="rightIcon"></span>
     </div>
-    <div class="form-wrapper">
+    <div v-if="tag" class="form-wrapper">
       <FormItem :value="tag.name"
                 @update:value="update"
                 field-name="标签名" placeholder="请输入标签名"/>
