@@ -9,13 +9,13 @@
     <ol v-if="groupedList.length > 0">
       <li v-for="(group, index) in groupedList" :key="index">
         <h3 class="title">
-          {{ beautify(group.title) }}<span>￥{{ group.total }}</span>
+          {{ beautify(group.title) }} <span>￥{{ group.total }}</span>
         </h3>
         <ol>
           <li v-for="item in group.items" :key="item.id" class="record">
             <span>{{ tagString(item.tags) }}</span>
             <span class="notes">{{ item.notes }}</span>
-            <span>￥{{ item.amount }}</span>
+            <span>￥{{ item.amount }} </span>
           </li>
         </ol>
       </li>
@@ -31,7 +31,6 @@ import Tabs from "@/components/Tabs.vue";
 import recordTypeList from "@/constants/recordTypeList";
 import dayjs from "dayjs";
 import clone from "@/lib/clone";
-const oneDay = 86400 * 1000;
 @Component({
   components: { Tabs },
 })
