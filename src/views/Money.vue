@@ -6,7 +6,7 @@
       <FormItem
         field-name="日期"
         type="date"
-        placeholder="在这里输入备注"
+        placeholder="在这里输入日期"
         :value.sync="record.createdAt"
       />
     </div>
@@ -39,6 +39,7 @@ export default class Money extends Vue {
   }
   recordTypeList = recordTypeList;
   record: RecordItem = {
+    id: "",
     tags: [],
     notes: "",
     type: "-",
@@ -58,7 +59,6 @@ export default class Money extends Vue {
     this.$store.commit("createRecord", this.record);
     if (this.$store.state.createRecordError === null) {
       window.alert("账单已保存");
-      // document.dispatchEvent(new CustomEvent("resetTags"));
       this.record.notes = "";
     }
   }
