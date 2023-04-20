@@ -183,7 +183,7 @@ export default class Statistics extends Vue {
   .type-tabs-item {
     background: white;
     &.selected {
-      background: #ffbb00;
+      background: #ffdd55;
       &::after {
         display: none;
       }
