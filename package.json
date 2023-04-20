@@ -23,7 +23,7 @@
   "devDependencies": {
     "@types/echarts": "^4.6.3",
     "@types/jest": "^24.0.19",
-    "@types/lodash": "^4.14.157",
+    "@types/lodash": "''4.14.149",
     "@vue/cli-plugin-babel": "^4.1.0",
     "@vue/cli-plugin-eslint": "^4.1.0",
     "@vue/cli-plugin-pwa": "^4.1.0",
@@ -42,7 +42,7 @@
     "svg-sprite-loader": "^4.1.6",
     "svg-sprite-loader-mod": "^4.1.6-mod1",
     "svgo-loader": "^2.2.1",
-    "typescript": "~3.7.5",
+    "typescript": "3.7.5",
     "vue-template-compiler": "^2.6.10"
   },
   "gitHooks": {
