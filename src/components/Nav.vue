@@ -41,7 +41,7 @@ nav {
     }
   }
   > .item.selected {
-    color: #ffbb00;
+    color: hotpink;
   }
 }
 </style>

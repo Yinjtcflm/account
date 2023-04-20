@@ -84,7 +84,7 @@ export default class EditLabel extends Vue {
   padding: 16px;
   margin-top: 44-16px;
   > .removeTag {
-    background: #ffbb00;
+    background: pink;
     color: black;
   }
 }
